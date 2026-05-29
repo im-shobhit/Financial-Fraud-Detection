@@ -23,6 +23,10 @@ The project is structured as a modular, production-ready pipeline rather than a 
 
 ---
 
+![Power BI Dashboard](dashboard_preview.png)
+
+---
+
 ## ⚙️ Key Technologies & Libraries
 * **Language:** Python 3.13
 * **Machine Learning:** Scikit-Learn (Random Forest, Logistic Regression)
