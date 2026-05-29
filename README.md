@@ -9,10 +9,15 @@ The primary challenge in financial fraud detection is **extreme class imbalance*
 The project is structured as a modular, production-ready pipeline rather than a standard research notebook:
 
 * `data/` : Contains the SQLite database and processed data files (Raw CSVs are git-ignored for security).
+
 * `notebooks/01_EDA_and_Preprocessing.ipynb` : Handles missing values, One-Hot Encoding, `RobustScaler` for extreme outliers, and `SMOTE` for class balancing.
+
 * `notebooks/02_Model_Training_and_Evaluation.ipynb` : Trains and evaluates Logistic Regression and Random Forest classifiers, generating performance metrics and Confusion Matrices.
+
 * `src/database_etl.py` : An automated ETL script that extracts raw CSV data, transforms it, and loads it into a local SQLite data warehouse.
+
 * `src/email_alert.py` : A simulated real-time alerting system using Python's `smtplib` to trigger security emails when a high-risk transaction is flagged.
+
 * `dashboards/` : Contains the PowerBI interactive dashboard for stakeholder reporting.
 
 ## ⚙️ Key Technologies & Libraries
