@@ -1,4 +1,4 @@
-# 💳 Financial Fraud Detection Pipeline
+## 💳 Financial Fraud Detection Pipeline
 
 ## 📌 Project Overview
 This project is an end-to-end Machine Learning and Data Engineering pipeline designed to detect fraudulent financial transactions. It was developed as the final capstone project for the **Amdocs 2nd Month Internship Program**.
